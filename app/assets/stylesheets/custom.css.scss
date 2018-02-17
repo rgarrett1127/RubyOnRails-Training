@@ -53,12 +53,24 @@ $navbar-default-bg: #BBDBB4;
   background-color: #5A5353;
 }
 
+.btn-actions-edit:hover {
+  background-color: #A07178;
+}
+
 .btn-actions-show {
   background-color: #A07178;
 }
 
+.btn-actions-show:hover {
+  background-color: #5A5353;
+}
+
 .btn-actions-delete {
   background-color: #660033;
+}
+
+.btn-actions-delete:hover {
+  background-color: #A07178;
 }
 
 .article-actions {
@@ -66,8 +78,40 @@ $navbar-default-bg: #BBDBB4;
   padding-top: 5px;
 }
 
-.description {
+.well {
+  background-color: #BBDBB4;
+}
+
+.description-title {
   margin-top: 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #5A5353;
+}
+
+.description-text {
+  padding: 10px 0 10px 0;
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-title a {
+  color: #660033;
+}
+
+.article-title a:link {
+  text-decoration: none;
+}
+
+.article-title a:hover {
+  color: #A07178;
+}
+
+.article-body {
+  border-top: 1px solid #5A5353;
+  padding: 15px 0 15px;
 }
 
 .footer {
