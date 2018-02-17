@@ -1,2 +1,76 @@
+$navbar-default-bg: #BBDBB4;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #660033;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #A07178;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset_url("cherry-blossom-trees-path-nature.jpg");
+  background-size: cover;
+  height: 550px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  padding-top: 205px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #5A5353;
+}
+
+.btn-xlg {
+  font-size: 1.7em;
+  background-color: #660033;
+}
+
+.btn-xlg:hover {
+  background-color: #A07178;
+}
+
+.footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #BBDBB4;
+  color: #5A5353;
+}
+
+.footer a {
+  color: #660033;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  color: #A07178;
+}
+
+.footer small {
+  float: left;
+}
+
+.footer ul {
+  float: right;
+  list-style: none;
+}
+
+.footer ul li {
+  float: left;
+  margin-left: 15px;
+}
