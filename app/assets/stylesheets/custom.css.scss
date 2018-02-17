@@ -45,6 +45,31 @@ $navbar-default-bg: #BBDBB4;
   background-color: #A07178;
 }
 
+.btn-actions {
+  color: #fff;
+}
+
+.btn-actions-edit {
+  background-color: #5A5353;
+}
+
+.btn-actions-show {
+  background-color: #A07178;
+}
+
+.btn-actions-delete {
+  background-color: #660033;
+}
+
+.article-actions {
+  border-top: 1px solid #5A5353;
+  padding-top: 5px;
+}
+
+.description {
+  margin-top: 0;
+}
+
 .footer {
   margin-top: 45px;
   padding-top: 5px;
