@@ -14,6 +14,11 @@
           <%= link_to 'Edit', edit_article_path(article), class: "btn btn-xs  btn-actions btn-actions-edit" %>
           <%= link_to 'Delete', article_path(article), class: "btn btn-xs  btn-actions btn-actions-delete", method: :delete, data: {confirm: "Are you sure?"} %>
         </div>
+        <div class="center article-meta-details">
+          <small>Created by: <%= article.user.username if article.user %>,
+            <%= time_ago_in_words(article.created_at) %> ago,
+            last updated: <%= time_ago_in_words(article.updated_at) %> ago</small>
+        </div>
       </div>
     </div>
   </div>
